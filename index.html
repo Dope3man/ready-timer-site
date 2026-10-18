@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ready Timer: timer de palco para eventos, igrejas e transmissões</title>
 <meta name="description" content="Timer de palco para Windows com tela de exibição, cores por estágio, controle pelo celular e integração com OBS e Stream Deck.">
+<link rel="canonical" href="https://readytimer.com.br/">
 <link rel="icon" href="img/icon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&display=swap">
@@ -69,7 +70,7 @@
       <ul>
         <li>Timers sem limite de duração</li>
         <li>Ativação em até 2 computadores</li>
-        <li>Atualizações incluídas</li>
+        <li>Atualizações da versão 1.x incluídas</li>
         <li>Reembolso em até 7 dias</li>
       </ul>
       <a class="btn primary" id="buyBtn" href="#">Comprar licença</a>
@@ -94,7 +95,7 @@
 /* ===== Links: edite aqui ===== */
 /* baixa direto o instalador da versão mais recente (o arquivo da release precisa se chamar ReadyTimer-Instalador.exe) */
 var LINK_DOWNLOAD = 'https://github.com/Dope3man/ready-timer-site/releases/latest/download/ReadyTimer-Instalador.exe';
-var LINK_COMPRA   = 'https://checkout.dodopayments.com/buy/pdt_0Nq2BL6EiZrn10s6mBpdc?quantity=1';
+var LINK_COMPRA   = '';   /* link de checkout da Dodo Payments (enquanto vazio, o botão mostra "Em breve") */
 
 document.querySelectorAll('#dlBtn,.dl').forEach(function(a){ a.href=LINK_DOWNLOAD; });
 var buy=document.getElementById('buyBtn');
