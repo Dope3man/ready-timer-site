@@ -24,7 +24,7 @@
     <a class="btn primary" id="dlBtn" href="#">Baixar grátis</a>
     <a class="btn ghost" href="#preco">Ver preço</a>
   </div>
-  <div class="note muted">Windows 10 e 11 (64 bits) · versão gratuita com timers de até 20 minutos</div>
+  <div class="note muted">Windows 10 e 11 (64 bits) · o download começa na hora · versão gratuita com timers de até 20 minutos</div>
   <div class="shot"><img src="img/painel.jpg" alt="Painel de controle do Ready Timer com o tempo restante, presets, ajuste rápido e prévia da tela de exibição" width="2049" height="1152"></div>
 </div>
 
@@ -92,7 +92,8 @@
 
 <script>
 /* ===== Links: edite aqui ===== */
-var LINK_DOWNLOAD = 'https://github.com/Dope3man/ready-timer-site/releases/latest';
+/* baixa direto o instalador da versão mais recente (o arquivo da release precisa se chamar ReadyTimer-Instalador.exe) */
+var LINK_DOWNLOAD = 'https://github.com/Dope3man/ready-timer-site/releases/latest/download/ReadyTimer-Instalador.exe';
 var LINK_COMPRA   = '';   /* link de checkout da Dodo Payments (enquanto vazio, o botão mostra "Em breve") */
 
 document.querySelectorAll('#dlBtn,.dl').forEach(function(a){ a.href=LINK_DOWNLOAD; });
@@ -106,4 +107,3 @@ if(LINK_COMPRA){ buy.href=LINK_COMPRA; } else { buy.textContent='Compra disponí
 </div></footer>
 </body>
 </html>
-
