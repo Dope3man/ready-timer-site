@@ -84,6 +84,8 @@
   <details><summary>Como funciona a versão gratuita?</summary><p>É o programa completo, com uma única limitação: a duração máxima do timer é de 20 minutos. Ao ativar a licença, o limite desaparece, sem precisar reinstalar.</p></details>
   <details><summary>Preciso de internet?</summary><p>Só para ativar a licença. Depois disso o Ready Timer funciona sem internet e confere a licença sozinho quando há conexão. Ele pode ficar até 30 dias sem internet; passado esse prazo, basta conectar uma vez para confirmar.</p></details>
   <details><summary>Em quantos computadores posso usar?</summary><p>Cada licença ativa até 2 computadores. Para trocar de computador, use "Remover deste computador" no programa e ative no novo.</p></details>
+  <details><summary>Meu computador quebrou (ou foi formatado) e não consegui remover a licença. E agora?</summary><p>Sem problema. No e-mail da compra há um link para gerenciar a sua licença: por ele você remove a ativação do computador antigo e libera a vaga para ativar no novo.</p></details>
+  <details><summary>Perdi minha chave de licença.</summary><p>A chave está no e-mail enviado logo após a compra e também no painel de gerenciamento, acessado pelo link desse mesmo e-mail. Se não encontrar o e-mail, escreva para <a href="mailto:samuel.wmello@gmail.com">samuel.wmello@gmail.com</a> informando o e-mail usado na compra.</p></details>
   <details><summary>Os celulares precisam instalar alguma coisa?</summary><p>Não. Qualquer celular, tablet ou notebook na mesma rede abre o painel pelo navegador, lendo o QR code que aparece no programa. O controle pode ser protegido por PIN.</p></details>
   <details><summary>O Windows mostrou um aviso ao instalar. É seguro?</summary><p>Sim. O aviso "O Windows protegeu o computador" aparece com programas novos que ainda não têm assinatura digital paga. Clique em "Mais informações" e depois em "Executar assim mesmo".</p></details>
   <details><summary>E se eu me arrepender da compra?</summary><p>Você tem 7 dias para pedir o reembolso integral, sem precisar explicar o motivo. Veja a <a href="reembolso.html">política de reembolso</a>.</p></details>
@@ -95,7 +97,7 @@
 /* ===== Links: edite aqui ===== */
 /* baixa direto o instalador da versão mais recente (o arquivo da release precisa se chamar ReadyTimer-Instalador.exe) */
 var LINK_DOWNLOAD = 'https://github.com/Dope3man/ready-timer-site/releases/latest/download/ReadyTimer-Instalador.exe';
-var LINK_COMPRA   = 'https://checkout.dodopayments.com/buy/pdt_0Nq2BL6EiZrn10s6mBpdc?quantity=1'
+var LINK_COMPRA   = 'https://checkout.dodopayments.com/buy/pdt_0Nq2BL6EiZrn10s6mBpdc?quantity=1';   /* link de checkout da Dodo Payments (enquanto vazio, o botão mostra "Em breve") */
 
 document.querySelectorAll('#dlBtn,.dl').forEach(function(a){ a.href=LINK_DOWNLOAD; });
 var buy=document.getElementById('buyBtn');
